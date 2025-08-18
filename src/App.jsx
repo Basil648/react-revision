@@ -1,11 +1,14 @@
-function App() {
-  const isLoggedIn = true; // try changing to false also
-
-  return (
-    <div>
-      <h2>{isLoggedIn ? "sorry acess denied" : "welcum bekk"}</h2>
-    </div>
-  );
-}
-
-export default App;
+ import React from 'react'
+ 
+ function App() {
+  let a=5;
+  let b=6;
+   return (
+     <>
+     
+     {a<5?"a < 5":"a>5"}
+     </>
+   )
+ }
+ 
+ export default App
